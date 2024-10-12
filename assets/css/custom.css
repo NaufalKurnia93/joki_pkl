@@ -1,0 +1,28 @@
+.via {
+    position: absolute;
+    left:  0;
+    top: 0;
+}
+
+.ketika-togle {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1500px) {
+    .via {
+        position: static;
+    }
+}
+
+@media  (max-width: 540px) {
+    .via {
+        display: none;
+    }
+}
+
+@media  (max-width: 390px) {
+    .via-kan {
+        font-size: 50px;
+    }
+}
